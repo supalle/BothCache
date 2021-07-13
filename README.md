@@ -6,7 +6,7 @@
 2. 基于SpringCache，所以完全兼容现在大量使用的@CacheConfig和@Cacheable等注解
 
 ## 使用方法：
-### 步骤1：往项目里添加BothCacheConfig类，包名请换成你自己项目里的包名：
+### 步骤1：往项目里添加[BothCacheConfig](./BothCacheConfig.java)类，包名请换成你自己项目里的包名：
 ### 步骤2：application.yml 里添加配置
 ```yaml
 spring.cache.caffeine.spec: expireAfterWrite=5s # 缓存写后多长时间过期

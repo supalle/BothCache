@@ -17,6 +17,7 @@ import java.util.Collection;
 import java.util.concurrent.Callable;
 
 /**
+ * 请原谅我没写注释
  * @author supalle
  * @date 2021年7月13日
  */

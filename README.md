@@ -11,7 +11,7 @@
 ```yaml
 spring.cache.caffeine.spec: expireAfterWrite=5s # 缓存写后多长时间过期
 ```
-### 步骤3：需要二级缓存的地方使用二级缓存，在注解里加上 cacheResolver = "bothCacheResolver" 即可：
+### 步骤3：需要二级缓存的地方使用二级缓存，在注解里加上 `cacheResolver = "bothCacheResolver"` 即可：
 1. @CacheConfig 里添加 `cacheResolver = "bothCacheResolver"`
 ```java
 @CacheConfig(cacheNames = "dict", cacheResolver = "bothCacheResolver")

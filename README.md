@@ -6,6 +6,7 @@
 2. 基于SpringCache，所以完全兼容现在大量使用的@CacheConfig和@Cacheable等注解
 
 ## 使用方法：
+### 前置条件：首先项目里得有SpringData Redis和caffeine，最好是已经用着了，没有就加一下依赖。
 ### 步骤1：往项目里添加[BothCacheConfig](./BothCacheConfig.java)类，包名请换成你自己项目里的包名：
 ### 步骤2：application.yml 里添加配置
 ```yaml

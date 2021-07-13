@@ -17,13 +17,13 @@ spring.cache.caffeine.spec: expireAfterWrite=5s # 缓存写后多长时间过期
 @CacheConfig(cacheNames = "dict", cacheResolver = "bothCacheResolver")
 ```
 如图：
-![@CacheConfig里使用.png](https://images-supalle.oss-cn-guangzhou.aliyuncs.com/1626166406098_image.png)
+![@CacheConfig里使用.png](./OnCacheConfg.png)
 2. @Cacheable里添加`cacheResolver = "bothCacheResolver"`
 ```java
 @Cacheable(key = "#p0", cacheResolver = "bothCacheResolver")
 ```
 如图：
-![@Cacheable里使用.png](https://images-supalle.oss-cn-guangzhou.aliyuncs.com/1626166571034_image.png)
+![@Cacheable里使用.png](./OnCacheable.png)
 
 其它注解一致。
 That it.

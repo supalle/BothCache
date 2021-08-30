@@ -1,5 +1,5 @@
 # BothCache
-一个springboot项目里的二级缓存实现
+一个springboot项目里的二级缓存实现[DEMO](https://github.com/supalle/BothCacheDemo)
 
 ## 特点：
 1. 简单，只需要往项目里粘贴这类，目前的版本连jar包都不需要引入。
